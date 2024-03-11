@@ -1,0 +1,97 @@
+.section_Mid{
+    float: left;
+    width: 1340px;
+    margin-left: 8px;
+}
+
+.section_Left{
+   
+}
+
+.section_Right{
+    float: right;
+}
+
+
+.container_Money{
+    background-color: grey;
+    width: 100%;
+    display: block;
+    padding: 20px 0;
+    
+}
+/*.container_HD{
+    height: 50px; 
+    width: 50px; 
+    background-color: brown;
+    display: inline-block; 
+    border-radius: 50%;
+    position: relative;
+    transition: all .2s ease-in-out
+}
+.container_HD:hover {transform: scale(1.10); }
+.container_HD:active{transform: scale(0.99); }*/
+
+#clicker{
+    background-image: url("../img/g_icon.png");
+    background-size: contain;
+    position: relative;
+    transition: all .2s ease-in-out;
+    height: 127px;
+    width: 110px;
+}
+#clicker:hover{transform: scale(1.10);}
+#clicker:active{transform: scale(0.99);}
+
+#clicker > .number {
+    z-index: 99;
+    font-size:  24px;
+    color: black;
+    position: absolute;
+}
+
+.container_Upgrade{
+    background-color: #b5b5b5;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    width: 760px;
+    margin: 10px 0px 10px 0px;
+}
+.container_Upgrade:hover{
+    background-color: #c7c7c7;
+    transition: all .2s ease-in-out;
+}
+.container_Upgrade img{
+    height: 64px;
+    width: 64px
+}
+.container_Upgrade #nameAndCost p{
+    margin: 0px;
+    width: 60%;
+}
+.container_Upgrade #nameAndCost p:first-of-type{
+    font-size: 24px;
+}
+.container_Upgrade #amount{
+    font-size: 48px;
+    color: #595959;
+    font-family: roboto;
+    width: 15%;
+}
+.section_Footer{
+    margin-top: 20%;
+}
+.unselectable{
+    user-select: none;
+}
+
+#container_Feature img {
+    height: 64px;
+    width: 64px;
+}
+
+#container_Achievement img{
+    height: 64px;
+    width: 64px;
+}
+
